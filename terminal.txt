@@ -1,11 +1,13 @@
-git config --global user.name "nombre"
-git config --global user.email direccioncorreo
+Algunos comandos de Terminal:
 
-chequear con: git config --global –list
+a) cd: Change Directory. Es un cambio de directorio.
+b) ls: Muestra todos los archivos, carpetas, etc. existentes en el lugar donde está. Es importante saber la Ruta Directa o el directorio que esté disponible.
+c) pwd: Nos indica la ruta en la que estamos en ese mismo momento. Entrega la ruta completa.
+d) ls -l: Devuelve todos los archivos y carpetas de un directorio, con sus permisos, identificación de creador, etc.
+e) mkdir: Crea una nueva carpeta o directorio.
+f) touch: Crea un archivo.
+g) mv: Move. Mover archivos. Además, puede cambiar el nombre. Para mover, se debe proporcionar la ruta completa (con extensión y todo). Para mover un directorio hacia atrás, antes de la ruta completa, hay que colocar “..”.
+h) rm: Remove. Sirve para borrar documentos. 
+i) rmdir: Mismo del anterior, pero con directorios.
 
-
-
-
-git init : inicia la carpeta como repositorio local.
-git add . : agrega todo el contenido del directorio al repositorio
-git commit -m “mensaje” : agrega el punto de guardado.
+Nota: rm -rf sirve para borrar una carpeta que no esté vacía.

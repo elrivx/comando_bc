@@ -1,0 +1,20 @@
+En Terminal y para enlaza (esto se hace una sola vez)r:
+git config --global user.name "nombre"
+git config --global user.email direccioncorreo
+
+chequear con: git config --global –list
+
+
+
+
+git init : inicia la carpeta como repositorio local.
+git add . : agrega todo el contenido del directorio al repositorio
+git commit -m “mensaje” : agrega el punto de guardado.
+
+Ahora, hay que enlazar con el repositorio remoto. Se copia y ejecuta el origins que sale en el repositorio de Github.
+
+Ahora ingresamos todo al repositorio de Github con: git push -u origin master
+
+Pide el usuario de github y en contraseña, va el Token.
+
+Para hacer actualización, se repiten los pasos desde el git add .
