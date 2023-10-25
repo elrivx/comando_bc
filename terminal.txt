@@ -1,0 +1,11 @@
+git config --global user.name "nombre"
+git config --global user.email direccioncorreo
+
+chequear con: git config --global –list
+
+
+
+
+git init : inicia la carpeta como repositorio local.
+git add . : agrega todo el contenido del directorio al repositorio
+git commit -m “mensaje” : agrega el punto de guardado.
